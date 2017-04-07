@@ -16,6 +16,7 @@ class MathUtilsTest {
     @Test
     void evaluate() {
         MathUtils.evaluate("(3 * 45.000000 + (8*6) + 7)");
+        MathUtils.evaluate("(4 * 45.000000 + (8*6) + 7)");
         MathUtils.evaluate("(3 * 45.000000 + ((8*6)) + 7)");
         MathUtils.evaluate("((65 + (5 * 3)) - (83 * 2))");
     }
